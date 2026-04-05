@@ -1,0 +1,18 @@
+#Comandos git
+Iniciando um Projeto
+Para começar a rastrear uma pasta no seu computador ou baixar um projeto pronto.
+
+git init: Transforma a pasta atual em um repositório Git.
+
+git clone [url]: Baixa um repositório completo do GitHub para o seu PC.
+
+3. O Ciclo de Trabalho (O que você mais vai usar)
+Sempre que você criar um script Python ou uma análise SQL, siga esta sequência:
+
+git status: Mostra quais arquivos foram alterados ou criados (aparecem em vermelho).
+
+git add .: Adiciona todas as mudanças para a "fila" de envio (ficam verdes).
+
+git commit -m "descrição": Tira uma "foto" oficial dessa versão do código e salva no seu computador.
+
+git push origin main: Envia suas fotos (commits) do computador para o GitHub.

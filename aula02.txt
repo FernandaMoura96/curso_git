@@ -1,0 +1,19 @@
+
+
+4. Sincronização e Consulta
+Para manter seu computador e o GitHub "falando a mesma língua".
+
+git pull origin main: Traz as novidades do GitHub para o seu PC (faça isso sempre ao começar o dia).
+
+git log: Mostra o histórico de todos os commits que você já fez.
+
+git remote -v: Mostra para qual endereço do GitHub o seu código está sendo enviado.
+
+5. Lidando com Branches (Ramificações)
+Para organizar testes sem mexer no código principal.
+
+git branch: Lista todas as suas branches.
+
+git checkout -b nome-da-branch: Cria uma nova branch e já muda para ela.
+
+git checkout main: Volta para a sua linha do tempo principal.
