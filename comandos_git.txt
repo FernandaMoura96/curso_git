@@ -1,0 +1,33 @@
+. Iniciando um Projeto
+git init: Transforma a pasta atual em um repositório Git.
+
+git clone [url]: Baixa um repositório da internet para o seu PC.
+
+2. Ciclo de Salvamento (O "Feijão com Arroz")
+git status: O comando mais importante! Mostra o que foi alterado e o que falta salvar.
+
+git add .: Seleciona todos os arquivos alterados para serem salvos.
+
+git add [arquivo]: Seleciona apenas um arquivo específico.
+
+git commit -m "mensagem": Grava as alterações com uma nota explicativa.
+
+3. Sincronização com o GitHub
+git remote add origin [url]: Conecta sua pasta local ao repositório no GitHub.
+
+git remote -v: Lista as conexões remotas configuradas.
+
+git push origin [branch]: Envia seus commits para o GitHub.
+
+git push -f origin [branch]: Força o envio (use apenas em emergências de histórico, como fizemos!).
+
+git pull origin [branch]: Traz as novidades do GitHub para o seu computador.
+
+4. Ramificações (Branches)
+git branch: Lista todas as branches e mostra em qual você está.
+
+git checkout -b [nome]: Cria uma nova branch e já entra nela.
+
+git checkout [nome]: Muda para uma branch que já existe.
+
+git merge [nome]: Une o código de uma branch na branch atual.

@@ -1,0 +1,79 @@
+O Gemini disse
+Para facilitar seus estudos no curso do Téo Me Why, organizei os comandos essenciais que você usará no dia a dia como Analista de Dados.
+
+Lembre-se: o Bash é o "terreno" (o terminal) onde você caminha, e o Git é a "ferramenta" que você usa para salvar o seu progresso.
+
+🛠️ Guia de Comandos Git
+Use estes comandos para gerenciar as versões do seu código Python e do seu curso.
+
+1. Iniciando um Projeto
+git init: Transforma a pasta atual em um repositório Git.
+
+git clone [url]: Baixa um repositório da internet para o seu PC.
+
+2. Ciclo de Salvamento (O "Feijão com Arroz")
+git status: O comando mais importante! Mostra o que foi alterado e o que falta salvar.
+
+git add .: Seleciona todos os arquivos alterados para serem salvos.
+
+git add [arquivo]: Seleciona apenas um arquivo específico.
+
+git commit -m "mensagem": Grava as alterações com uma nota explicativa.
+
+3. Sincronização com o GitHub
+git remote add origin [url]: Conecta sua pasta local ao repositório no GitHub.
+
+git remote -v: Lista as conexões remotas configuradas.
+
+git push origin [branch]: Envia seus commits para o GitHub.
+
+git push -f origin [branch]: Força o envio (use apenas em emergências de histórico, como fizemos!).
+
+git pull origin [branch]: Traz as novidades do GitHub para o seu computador.
+
+4. Ramificações (Branches)
+git branch: Lista todas as branches e mostra em qual você está.
+
+git checkout -b [nome]: Cria uma nova branch e já entra nela.
+
+git checkout [nome]: Muda para uma branch que já existe.
+
+git merge [nome]: Une o código de uma branch na branch atual.
+
+💻 Guia de Comandos Bash (Terminal)
+Use estes comandos para navegar nas pastas e gerenciar arquivos no seu Windows/Linux.
+
+1. Navegação de Pastas
+pwd: Mostra o caminho da pasta onde você está agora (Print Working Directory).
+
+ls: Lista todos os arquivos e pastas do diretório atual.
+
+ls -a: Mostra arquivos ocultos (como a pasta .git).
+
+cd [nome-da-pasta]: Entra em uma pasta.
+
+cd ..: Volta para a pasta anterior (sobe um nível).
+
+cd ~: Volta direto para a pasta inicial do seu usuário.
+
+2. Gerenciamento de Arquivos
+mkdir [nome]: Cria uma nova pasta (Make Directory).
+
+touch [nome.extensao]: Cria um arquivo vazio (ex: touch README.md).
+
+rm [arquivo]: Apaga um arquivo. Cuidado: não tem lixeira!
+
+rm -rf [pasta]: Apaga uma pasta inteira e tudo o que tem dentro dela.
+
+mv [origem] [destino]: Move ou renomeia um arquivo/pasta.
+
+cp [origem] [destino]: Copia um arquivo/pasta.
+
+3. Utilitários do Sistema
+clear: Limpa toda a sujeira da tela do terminal.
+
+history: Mostra a lista de todos os comandos que você digitou recentemente.
+
+cat [arquivo]: Exibe o conteúdo de um arquivo direto no terminal.
+
+exit: Fecha o terminal.
